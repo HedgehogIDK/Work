@@ -75,6 +75,13 @@ class Website
         get { return _ip; }
         set { _ip = value; }
     }
+    public void Print()
+    {
+        WriteLine($"Название сайта: {_name}");
+        WriteLine($"Путь: {_path}");
+        WriteLine($"Описание: {_description}");
+        WriteLine($"Ip: {_ip}");
+    }
 
 }
 
@@ -108,6 +115,14 @@ class Magazine
         get { return _age; }
         set { _age = value; }
     }
+    public void Print()
+    {
+        WriteLine($"Название журнала: {_name}");
+        WriteLine($"Год основания: {_age}");
+        WriteLine($"Описание: {_description}");
+        WriteLine($"Контактный номер: {_phone}");
+        WriteLine($"Электронная почта: {_mail}");
+    }
 }
 
 class Shop
@@ -137,5 +152,12 @@ class Shop
     {
         get { return _address; }
         set { _address = value; }
+    }
+    public void Print()
+    {
+        WriteLine($"Название магазина: {_name}");
+        WriteLine($"Путь: {_path}");
+        WriteLine($"Описание: {_description}");
+        WriteLine($"Ip: {_ip}");
     }
 }
