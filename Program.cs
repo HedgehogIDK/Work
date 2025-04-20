@@ -156,8 +156,8 @@ class Shop
     public void Print()
     {
         WriteLine($"Название магазина: {_name}");
-        WriteLine($"Путь: {_path}");
+        WriteLine($"Адрес: {_address}");
         WriteLine($"Описание: {_description}");
-        WriteLine($"Ip: {_ip}");
+        WriteLine($"Электронная почта: { _mail}");
     }
 }
